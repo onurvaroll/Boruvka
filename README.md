@@ -1,7 +1,5 @@
 # Boruvka
 
-İlk önce bu kod, verilen bir metin ve bir kelime listesi ile metindeki kelime tekrar sayılarını hesaplayan bir fonksiyon olan "boruvka()" fonksiyonunu içerir.
-
 Değişkenler:
 
 "text": hesaplanacak kelime tekrarları olan metin.
