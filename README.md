@@ -1,14 +1,15 @@
 # Boruvka
 
-Nasıl Çalışır?
+## Nasıl Çalışır?
+
 Öncelikle kesinlikle txt dosyası ile python dosyası aynı klasör ya dizin içinde olmalıdır. Bazen VSCode txt dosyasını okumuyor bu durumda da klasör ile açıp
 klasör içinden python dosyasını açtığımda bir sorun yaşamadım. Programın ne yaptığı yorum satırlarında yazılı olup çalıştırıldğında terminalde direkt sonuçlar yazmaktadır.
 
-Not:
+## Not:
 Boruvka algoritması minimum kesim ağacını bulmak için kullanılan bir graf algoritmasıdır. Bu nedenle, metin içinde bir kelimenin kaç kere geçtiğini bulmak için Boruvka algoritması kullanılamaz. Bu yüzden terminal ekranında bütün değerler 0 olarak göstermektedir.
 
 
-Algoritma Açıklaması:
+## Algoritma Açıklaması:
 
 İlk olarak, tüm kelime dizilerinin pozisyonları kenar olarak edges listesine eklenir ve metindeki tüm kelime pozisyonları nodes kümesine eklenir.
 Sonra nodes kümesi sıralanır ve her bir kelime pozisyonu, o bileşenin adı olan components adlı bir sözlüğe atanır.
@@ -18,7 +19,7 @@ Daha sonra, kelime dizilerinin tekrar sayılarını hesaplamak için "words" lis
 Son olarak, fonksiyon "result" sözlüğünü döndürür.
 
 
-Değişkenler:
+## Değişkenler:
 
 "text": hesaplanacak kelime tekrarları olan metin.
 "words": hesaplanacak kelimelerin listesi.
@@ -27,7 +28,7 @@ Değişkenler:
 "components": kelime pozisyonlarını tutan bileşenlerin listesi.
 
 
-Çalışma Zamanı Analizi:
+## Çalışma Zamanı Analizi:
 
 İlk döngü, metnin boyutuna ve kelime listesinin boyutuna bağlı olarak O(N*M) olabilir.
 Node'ların sıralanması O(NlogN) kadar sürer.
