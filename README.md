@@ -1,12 +1,8 @@
 # Boruvka
 
-Değişkenler:
-
-"text": hesaplanacak kelime tekrarları olan metin.
-"words": hesaplanacak kelimelerin listesi.
-"edges": metindeki kelime dizilerinin tutulduğu kenar listesi.
-"nodes": metindeki tüm kelime pozisyonlarını tutan küme.
-"components": kelime pozisyonlarını tutan bileşenlerin listesi.
+Nasıl Çalışır?
+Öncelikle kesinlikle txt dosyası ile python dosyası aynı klasör ya dizin içinde olmalıdır. Bazen VSCode txt dosyasını okumuyor bu durumda da klasör ile açıp
+klasör içinden python dosyasını açtığımda bir sorun yaşamadım. Programın ne yaptığı yorum satırlarında yazılı olup çalıştırıldğında terminalde direkt sonuçlar yazmaktadır.
 
 
 Algoritma Açıklaması:
@@ -17,6 +13,15 @@ Daha sonra, bileşenlerin sayısı 1'den büyük olduğu sürece döngü devam e
 Her turda, komponentler 2'li gruplar halinde alınır ve minimum ağırlığa sahip olan kenarlar components sözlüğündeki yeni bileşenlere eklenir.
 Daha sonra, kelime dizilerinin tekrar sayılarını hesaplamak için "words" listesindeki her kelime için, kelime pozisyonları, componentlerin değerleri ile karşılaştırılır ve her kelime için tekrar sayısı bir sözlük olan "result" sözlüğüne eklenir.
 Son olarak, fonksiyon "result" sözlüğünü döndürür.
+
+
+Değişkenler:
+
+"text": hesaplanacak kelime tekrarları olan metin.
+"words": hesaplanacak kelimelerin listesi.
+"edges": metindeki kelime dizilerinin tutulduğu kenar listesi.
+"nodes": metindeki tüm kelime pozisyonlarını tutan küme.
+"components": kelime pozisyonlarını tutan bileşenlerin listesi.
 
 
 Çalışma Zamanı Analizi:
