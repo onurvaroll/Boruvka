@@ -35,4 +35,3 @@ Döngüdeki "while" döngüsü O(N*M) kadar sürer.
 Sözlük işlemleri, eklemeler ve aramalar O(1) sürer.
 "result" sözlüğünün oluşturulması, metnin uzunluğuna ve kelime sayısına bağlı olarak O(N*M) kadar sürer.
 Bu nedenle, toplam zaman karmaşıklığı O(NM) + O(NlogN) + O(NM) + O(1) + O(NM) = O(NM*logN) dir.
-"shift-or" ve "boruvka" algoritmaları hakkında yeterli bilgi sağladım. Başka bir sorunuz var mı?
